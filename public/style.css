@@ -1,0 +1,199 @@
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color:#47393F;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color:#47393F;
+}
+body {
+    height: 100vh;
+    background:#47393F;
+}
+.sticky-top {
+    height: 8vh;
+}
+.formularz .form-group {
+    display: inline-block;
+    margin: 0;
+}
+.formularz .form-group .form-control {
+    background-color:#b32ae9;
+    border: none;
+    color: #ffffff;
+    border-radius: 1.25rem;
+    padding: 20px;
+}
+.formularz .form-group ::placeholder {
+    color: #ffffff;
+}
+.formularz .btn-primary {
+    background-color:#b32ae9;
+    border: none;
+    border-radius: 1.25rem;
+    border-color: #fff;
+}
+.formularz .btn-primary:hover {
+    background-color:#b32ae9;
+}
+.formularz img {
+    height: 1.8rem;
+    color: #fff;
+    filter: invert(100%);
+}
+.top-bar-container {
+    display: none;
+}
+.top-bar-container .sign-in {
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 16px;
+}
+.top-bar-container .sign-in .btn {
+    background-color:#b32ae9;
+    border-radius: 1.25rem;
+    color: #fff;
+}
+.top-bar-container .sign-in .btn:hover {
+    background-color:#b32ae9;
+}
+.messages {
+    color: #fff;
+    padding: 5px;
+}
+.page-wraper-container .site-bar {
+    display: block;
+    height: 100%;
+    margin-top: 150px;
+}
+.page-wraper-container .site-bar .logo {
+    background: url("../assets/Logo.png") no-repeat center;
+    background-size: contain;
+    height: 345px;
+    display: inline-block;
+}
+.page-wraper-container .site-bar .register {
+    height: 345px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    font-style: normal;
+}
+.page-wraper-container .site-bar .register section {
+    width: 500px;
+}
+.page-wraper-container .site-bar .register .form-group {
+    position: relative;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.page-wraper-container .site-bar .register .form-group:last-child {
+    margin-bottom: 0px;
+}
+.page-wraper-container .site-bar .register .form-group label {
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+.page-wraper-container .site-bar .register .form-group label .material-icons-name {
+    font-size: 18px;
+}
+.page-wraper-container .site-bar .register .form-group input {
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    color: #999;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.page-wraper-container .site-bar .register .form-group .form-submit {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    background:#b32ae9;
+    color: #fff;
+    border: none;
+    width: auto;
+    padding: 15px 39px;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 1.25rem;
+}
+.page-wraper-container .site-bar .register .form-group .form-submit:hover {
+    background-color: #b32ae9;
+}
+.page-wraper-container .site-bar .register .social-buttons {
+    margin-top: 20px;
+}
+.page-wraper-container .site-bar .register .social-buttons .fa {
+    border-radius: 2rem;
+    background: #c43bfa;
+    border: 1px solid#b32ae9;
+    padding: 18px;
+}
+.page-wraper-container .site-bar .register .social-buttons .fa:hover {
+    background:#b32ae9;
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
+.page-wraper-container .site-bar .register .social-buttons .fa a:visited {
+    color: #fff;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .page-wraper-container .site-bar {
+        margin-top: 150px;
+   }
+    .page-wraper-container .site-bar .logo {
+        height: 300px;
+   }
+    .page-wraper-container .site-bar .register {
+        height: 300px;
+   }
+    .page-wraper-container .site-bar .register section {
+        width: 100%;
+   }
+}
+@media (max-width: 767px) {
+    .sticky-top {
+        display: none;
+   }
+    .sticky-top .messages {
+        margin-top: -25px;
+   }
+    .top-bar-container {
+        display: block;
+   }
+    .page-wraper-container .site-bar {
+        margin-top: 50px;
+   }
+    .page-wraper-container .site-bar .logo {
+        height: 300px;
+        margin-bottom: 50px;
+   }
+    .page-wraper-container .site-bar .register {
+        height: auto;
+        margin-bottom: 40px;
+   }
+    .page-wraper-container .site-bar .register section {
+        margin: auto;
+   }
+}
+@media (max-width: 576px) {
+    .page-wraper-container .site-bar .register section {
+        width: 100%;
+   }
+}

@@ -1,0 +1,170 @@
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+body {
+    height: 100%;
+    background: transparent linear-gradient(180deg,#382930 0%,#47393F 46%,#382930 72%,#7A7074 100%) 0% 0% no-repeat padding-box;
+}
+.navbar-expand-lg {
+    background: transparent !important;
+    height: 8vh;
+    border-bottom: 1px solid #b32ae9;
+}
+.navbar-expand-lg .navbar-brand {
+    background: url("../assets/Logo.png") no-repeat left;
+    background-size: contain;
+    height: 7vh;
+    width: 10%;
+}
+.navbar-expand-lg .navbar-toggler {
+    border: none;
+    margin-top: -10px;
+}
+.navbar-expand-lg .navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
+}
+.navbar-expand-lg .mr-auto {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+.navbar-expand-lg .mr-auto > li {
+    padding-right: 20px;
+}
+.navbar-expand-lg .mr-auto > li > a {
+    color: #fff !important;
+    font-family: Arial;
+    font-weight: bold;
+}
+.navbar-expand-lg .mr-auto > li > a:hover {
+    color: #b32ae9 !important;
+}
+.navbar-expand-lg .form-control {
+    background-color: transparent;
+    border: 1px solid #b32ae9;
+}
+.navbar-expand-lg .btn-outline-success {
+    background-color: #b32ae9;
+    color: #fff;
+    border: none;
+}
+.navbar-expand-lg .btn-outline-success:hover {
+    background-color: #06523B;
+}
+.page-wraper-container {
+    width: 100%;
+}
+.page-wraper-container .site-bar {
+    display: block;
+    height: 92vh;
+    text-align: center;
+    padding-top: 150px;
+}
+.page-wraper-container .site-bar .cards img {
+    height: 100%;
+}
+.page-wraper-container .site-bar .con {
+    display: inline-block;
+    margin: auto;
+}
+.page-wraper-container .site-bar .con .star-value {
+    display: none;
+}
+.page-wraper-container .site-bar .con .fa-star {
+    font-size: 55px;
+    color: #000;
+}
+.page-wraper-container .site-bar .con .fa-star:before {
+    margin-left: -24px;
+}
+.page-wraper-container .site-bar .rate {
+    display: inline-block;
+}
+.page-wraper-container .site-bar .rate .ocena {
+    font-family: Arial;
+    color: #fff;
+    font-size: 55px;
+}
+@media (min-width: 1200px) {
+    .page-wraper-container .site-bar {
+        padding-top: 0;
+   }
+    .page-wraper-container .site-bar .cards {
+        height: 700px;
+   }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+    .page-wraper-container .site-bar .cards {
+        height: 500px;
+   }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse {
+        z-index: 100;
+        background: transparent linear-gradient(180deg,#382930 0%,#47393F 46%,#382930 72%,#7A7074 100%) 0% 0% no-repeat padding-box;
+        border-bottom: 1px solid #b32ae9;
+   }
+    .col-md-4 {
+        max-width: 32.333333%;
+   }
+    .page-wraper-container .site-bar {
+        padding-top: 150px;
+   }
+    .page-wraper-container .site-bar .cards {
+        height: 400px;
+   }
+}
+@media (max-width: 767px) {
+    .navbar-expand-lg .navbar-brand {
+        width: 47.8px;
+   }
+    .navbar-expand-lg .navbar-collapse {
+        z-index: 100;
+        background: transparent linear-gradient(180deg,#382930 0%,#47393F 46%,#382930 72%,#7A7074 100%) 0% 0% no-repeat padding-box;
+        border-bottom: 1px solid #b32ae9;
+   }
+    .page-wraper-container .site-bar {
+        padding-top: 150px;
+   }
+    .page-wraper-container .site-bar .cards {
+        height: 400px;
+   }
+}
+@media (max-width: 576px) {
+    .page-wraper-container .site-bar .cards {
+        height: 200px;
+   }
+    .page-wraper-container .site-bar .con .fa-star {
+        font-size: 20px;
+        width: 20px;
+        padding: 10px;
+        padding-left: 0;
+        padding-right: 0;
+   }
+    .page-wraper-container .site-bar .rate .ocena {
+        font-size: 20px;
+   }
+}
+@media (max-width: 325px) {
+    .page-wraper-container .site-bar {
+        padding-top: 50px;
+   }
+    .page-wraper-container .site-bar .con .fa-star:before {
+        margin-left: -6px;
+   }
+}

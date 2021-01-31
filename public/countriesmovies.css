@@ -1,0 +1,145 @@
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color:#47393F;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color:#47393F;
+}
+body {
+    height: 100%;
+    background:#47393F;
+}
+.navbar-expand-lg {
+    background: transparent !important;
+    height: 8vh;
+    border-bottom: 1px solid#b32ae9;
+}
+.navbar-expand-lg .navbar-brand {
+    background: url("../assets/Logo2.svg") no-repeat left;
+    background-size: contain;
+    height: 7vh;
+    width: 10%;
+}
+.navbar-expand-lg .navbar-toggler {
+    border: none;
+    margin-top: -10px;
+}
+.navbar-expand-lg .navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
+}
+.navbar-expand-lg .mr-auto {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+.navbar-expand-lg .mr-auto > li {
+    padding-right: 20px;
+}
+.navbar-expand-lg .mr-auto > li > a {
+    color: #fff !important;
+    font-family: Arial;
+    font-weight: bold;
+}
+.navbar-expand-lg .mr-auto > li > a:hover {
+    color: #b32ae9 !important;
+}
+.navbar-expand-lg .form-control {
+    background-color: transparent;
+    border: 1px solid#b32ae9;
+}
+.navbar-expand-lg .btn-outline-success {
+    background-color:#b32ae9;
+    color: #fff;
+    border: none;
+}
+.navbar-expand-lg .btn-outline-success:hover {
+    background-color: #b32ae9;
+}
+.page-wraper-container {
+    width: 100%;
+}
+.page-wraper-container .site-bar {
+    display: block;
+    height: 92vh;
+    text-align: center;
+    padding-top: 150px;
+}
+.page-wraper-container .site-bar .name {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-wraper-container .site-bar .name .surnames .s {
+    text-align: left;
+    font-family: Arial;
+    font-size: 30px;
+    background-color:#b32ae9;
+    width: 60%;
+    border-radius: 2.25rem;
+    margin-bottom: 15px;
+}
+.page-wraper-container .site-bar .name .surnames .s:hover {
+    background-color: #b32ae9;
+    color: #fff;
+}
+.page-wraper-container .site-bar .name .surnames .s a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+.page-wraper-container .site-bar .name .surnames .s a:visited {
+    color: #000;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse {
+        z-index: 100;
+        background: #47393F;
+        border-bottom: 1px solid#b32ae9;
+   }
+    .col-md-4 {
+        max-width: 32.333333%;
+   }
+    .page-wraper-container .site-bar {
+        padding-top: 150px;
+   }
+    .page-wraper-container .site-bar .name .surnames {
+        width: 100%;
+   }
+}
+@media (max-width: 767px) {
+    .navbar-expand-lg .navbar-brand {
+        width: 47.8px;
+   }
+    .navbar-expand-lg .navbar-collapse {
+        z-index: 100;
+        background:#47393F;
+        border-bottom: 1px solid#b32ae9;
+   }
+    .page-wraper-container .site-bar {
+        padding-top: 150px;
+   }
+    .page-wraper-container .site-bar .name .surnames .s {
+        width: 100%;
+   }
+}
+@media (max-width: 576px) {
+    .page-wraper-container .site-bar .name .surnames .s {
+        font-size: 20px;
+   }
+}
+@media (max-width: 325px) {
+    .page-wraper-container .site-bar {
+        padding-top: 50px;
+   }
+}
